@@ -1,0 +1,120 @@
+.caret-up {
+    width: 0; 
+    height: 0; 
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+#Resourcespage, #LifeDYPEFpage {
+	display:none;
+}
+/* header red stirp*/
+#dypefheader {
+	display: table-cell;
+	-webkit-transition: all 0.8s ease;
+	-ms-transition: all 0.8s ease;
+	-o-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+   transition: all 0.4s ease;
+}
+#dypefheadershrink{
+	display: none;
+}
+.shrink #dypefheader {
+	display: none;
+}
+.shrink #dypefheadershrink {
+	display: table-cell;
+}
+#headerright .menu-top {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+#headerright .menu-top li {
+    list-style: none;
+    float: left;
+    font-size: 11px;
+    font-family: 'open sans', arial, sans-serif;
+}
+#headerright .menu-top li.divider a {
+    border-right: 1px solid #c3c3c3;
+}
+#headerright .menu-top li a {
+    display: inline-block;
+    color: #777777;
+    padding: 0px 10px;
+}
+#headerright .contact {
+    font-size: 20px;
+    font-family: 'open sans', arial, sans-serif;
+    font-weight: 300;
+    margin-top: 10px;
+}
+#headerright  .contact p.phone {
+    margin-right: 30px;
+}
+#headerright  .contact p {
+    float: left;
+    margin-bottom: 0;
+}
+#headerright .contact .fa.fa-phone {
+    font-size: 22px;
+    top: 2px;
+}
+#headerright  .contact .fa {
+    color: #6091ba;
+    margin-right: 8px;
+    font-size: 18px;
+    position: relative;
+    top: 1px;
+}
+.redstrip {
+	background-color:rgba(236, 50, 55,0.83);
+	/*z-index:1029 !important;*/
+}
+
+
+/*Main menu bar*/
+
+.affix {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+.mainmenu>li>a {
+    position: relative;
+    display: block;
+    color: #fff;
+    padding: 10px 15px !important;
+}
+.mainmenu>li>a:hover,.mainmenu>li>a:focus,.mainmenu>li>a:active {
+    text-decoration: none;
+    background-color: #3e4095 !important;
+    color: #d4d4d4 !important;
+}
+.dropdown-menu{
+	border-radius: 0px;
+	background-color: #323232;
+	margin: 0px;
+}
+.dropdown-menu > li > a{
+	color: #fff;
+	font-size: 16px
+}
+.dropdown-menu > li > a:hover,.dropdown-menu > li > a:focus,.dropdown-menu > li > a:active {
+     text-decoration: none;
+    background-color: #3e4095 !important;
+    color: #d4d4d4 !important;
+}
+
+
